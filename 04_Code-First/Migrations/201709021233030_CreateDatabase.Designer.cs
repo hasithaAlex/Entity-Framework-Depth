@@ -13,7 +13,7 @@ namespace _04_Code_First.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201709021152342_Create-Database"; }
+            get { return "201709021233030_CreateDatabase"; }
         }
         
         string IMigrationMetadata.Source

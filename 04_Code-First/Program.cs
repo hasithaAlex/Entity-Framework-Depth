@@ -51,7 +51,7 @@ namespace _04_Code_First
             public DbSet<Tag> Tags { get; set; }
 
             public PlutoContext()
-                : base("name:DefaultConnection")
+                : base("name=PlutoDefaultConnection")
             {
                     
             }
